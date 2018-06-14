@@ -1,0 +1,6 @@
+---
+hosts: Bastion
+gather_facts: false
+become: yes
+tasks:
+- name: Copy SSH keys between servers
