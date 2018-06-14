@@ -11,7 +11,10 @@
      key_name: tower
      instance_type: t2.micro
      image: amzn-ami-hvm-2018.03.0.20180508-x86_64-gp2 (ami-14c5486b)
-     wait: yes
+     wait: true
      region: us-east-1
-     count: 3
-     assign_public_ip: yes
+     exact_count: 3
+     count_tag:  
+       Name: Demo  
+     instance_tags:  
+       Name: Demo
