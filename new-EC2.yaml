@@ -8,13 +8,7 @@
     ec2:
      aws_access_key: 'AKIAIHAY3Y2GL6MTVJ4A'
      aws_secret_key: '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'
-     key_name: tower
      instance_type: t2.micro
      image: ami-14c5486b
-     wait: true
-     region: us-east-1
-     exact_count: 3
-     count_tag:  
-       Name: Demo  
-     instance_tags:  
-       Name: Demo
+     region: eu-west-3
+     
