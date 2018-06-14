@@ -8,6 +8,7 @@
     ec2:
      aws_access_key: 'AKIAIZ2LHQA6E6TA54YQ'
      aws_secret_key: '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'
+     ec2_url: https://michaelcloud.signin.aws.amazon.com/console
      key_name: tower
      instance_type: t2.micro
      image: ami-14c5486b
