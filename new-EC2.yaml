@@ -14,5 +14,4 @@
      wait: yes
      region: us-east-1
      count: 3
-     vpc_subnet_id: subnet-91ecaebd
      assign_public_ip: yes
