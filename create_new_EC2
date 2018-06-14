@@ -1,0 +1,11 @@
+---
+gather_facts: false
+tasks:
+- ec2:
+    key_name: tower
+    instance_type: t2.micro
+    image: amzn-ami-hvm-2018.03.0.20180508-x86_64-gp2 (ami-14c5486b)
+    wait: yes
+    count: 3
+    vpc_subnet_id: subnet-91ecaebd
+    assign_public_ip: yes
