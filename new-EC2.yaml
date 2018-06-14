@@ -10,5 +10,5 @@
          instance_type: t2.micro  
          image: ami-14c5486b 
          region: us-east-1
-         aws_access_key: "AKIAIHAY3Y2GL6MTVJ4A"
-         aws_secret_key: "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"
+         aws_access_key: "AKIAJESLJG7WPANJH5GA"
+         aws_secret_key: "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"
