@@ -10,7 +10,7 @@
      aws_secret_key: 'p40IYzgcNoBTp2XKgxzgHSEg7GGukH81giDR+h9w'
      key_name: tower
      instance_type: t2.micro
-     image: amzn-ami-hvm-2018.03.0.20180508-x86_64-gp2 (ami-14c5486b)
+     image: ami-14c5486b
      wait: true
      region: us-east-1
      exact_count: 3
