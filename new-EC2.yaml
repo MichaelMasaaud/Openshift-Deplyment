@@ -1,14 +1,14 @@
 ---
-- hosts: localhost
-  connection: local
-  become: false
-  gather_facts: false
-  tasks:
-  - name: Create new EC2 Instance with Default / Simple Options
-    ec2:
-     aws_access_key: 'AKIAIHAY3Y2GL6MTVJ4A'
-     aws_secret_key: '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'
-     instance_type: t2.micro
-     image: ami-14c5486b
-     region: eu-west-3
-     
+- hosts: localhost  
+  connection: local  
+  gather_facts: False  
+
+  tasks:  
+    #this task creates 5 ec2 instances that are all named demo and are copies of the image specified  
+    - name: Provision a set of instances  
+      ec2:
+         instance_type: t2.micro  
+         image: ami-14c5486b 
+         region: us-east-1
+         aws_access_key: "AKIAIHAY3Y2GL6MTVJ4A"
+         aws_secret_key: "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"
